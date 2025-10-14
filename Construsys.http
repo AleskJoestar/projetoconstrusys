@@ -1,0 +1,6 @@
+@Construsys_HostAddress = http://localhost:5171
+
+GET {{Construsys_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
