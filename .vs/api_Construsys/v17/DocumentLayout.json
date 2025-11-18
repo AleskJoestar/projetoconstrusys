@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\ifro 20252\\projetoconstrusys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\controllers\\proprietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:controllers\\proprietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\dtos\\construcaoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:dtos\\construcaoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\controllers\\construcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:controllers\\construcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\models\\construcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:models\\construcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\datacontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:datacontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\controllers\\proprietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|solutionrelative:controllers\\proprietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB217F43-8CA6-4537-B6B2-565DFC8B23B3}|api_Construsys.csproj|d:\\ifro 20252\\projetoconstrusys\\models\\proprietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,19 +55,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConstrucaoResponseDto.cs",
+              "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\Dtos\\ConstrucaoResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ConstrucaoResponseDto.cs",
+              "ToolTip": "D:\\ifro 20252\\projetoconstrusys\\Dtos\\ConstrucaoResponseDto.cs",
+              "RelativeToolTip": "Dtos\\ConstrucaoResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T23:06:44.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Construcao.cs",
+              "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\Models\\Construcao.cs",
+              "RelativeDocumentMoniker": "Models\\Construcao.cs",
+              "ToolTip": "D:\\ifro 20252\\projetoconstrusys\\Models\\Construcao.cs",
+              "RelativeToolTip": "Models\\Construcao.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T23:05:00.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConstrucaoController.cs",
+              "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\Controllers\\ConstrucaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConstrucaoController.cs",
+              "ToolTip": "D:\\ifro 20252\\projetoconstrusys\\Controllers\\ConstrucaoController.cs",
+              "RelativeToolTip": "Controllers\\ConstrucaoController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T23:02:34.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProprietarioController.cs",
               "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\Controllers\\ProprietarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProprietarioController.cs",
               "ToolTip": "D:\\ifro 20252\\projetoconstrusys\\Controllers\\ProprietarioController.cs",
               "RelativeToolTip": "Controllers\\ProprietarioController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAA7wAUAAAAkAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T22:55:01.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Proprietario.cs",
               "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\Models\\Proprietario.cs",
               "RelativeDocumentMoniker": "Models\\Proprietario.cs",
@@ -63,25 +114,24 @@
               "RelativeToolTip": "Models\\Proprietario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T22:54:21.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T22:54:21.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\DataContexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DataContexts\\AppDbContext.cs",
               "ToolTip": "D:\\ifro 20252\\projetoconstrusys\\DataContexts\\AppDbContext.cs",
               "RelativeToolTip": "DataContexts\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T22:53:41.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ifro 20252\\projetoconstrusys\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -89,8 +139,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-18T22:53:07.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T22:53:07.577Z"
             }
           ]
         }

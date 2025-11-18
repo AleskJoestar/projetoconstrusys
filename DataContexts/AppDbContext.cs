@@ -8,5 +8,6 @@ namespace api_Construsys.DataContexts
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<Proprietario> Proprietarios { get; set; }
+        public DbSet<Construcao> Construcoes { get; set; }
     }
 }
