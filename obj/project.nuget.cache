@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qTbkD7kIL6Q=",
+  "dgSpecHash": "/hSE7nDjDG8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cleverson Dutra\\source\\repos\\api_Construsys\\api_Construsys.csproj",
+  "projectFilePath": "D:\\ifro 20252\\projetoconstrusys\\api_Construsys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cleverson Dutra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Cleverson Dutra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

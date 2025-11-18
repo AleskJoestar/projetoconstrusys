@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api_Construsys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc12b1b5150d6e13a6977fa7f212a7a8c9c91418")]
 [assembly: System.Reflection.AssemblyProductAttribute("api_Construsys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api_Construsys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

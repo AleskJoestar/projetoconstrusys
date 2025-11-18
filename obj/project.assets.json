@@ -2537,11 +2537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cleverson Dutra\\source\\repos\\api_Construsys\\api_Construsys.csproj",
+      "projectUniqueName": "D:\\ifro 20252\\projetoconstrusys\\api_Construsys.csproj",
       "projectName": "api_Construsys",
-      "projectPath": "C:\\Users\\Cleverson Dutra\\source\\repos\\api_Construsys\\api_Construsys.csproj",
+      "projectPath": "D:\\ifro 20252\\projetoconstrusys\\api_Construsys.csproj",
       "packagesPath": "C:\\Users\\Cleverson Dutra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cleverson Dutra\\source\\repos\\api_Construsys\\obj\\",
+      "outputPath": "D:\\ifro 20252\\projetoconstrusys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
