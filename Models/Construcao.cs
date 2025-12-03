@@ -23,8 +23,8 @@ namespace api_Construsys.Models
 
         [ForeignKey("IdProprietario")]
         public Proprietario Proprietario { get; set; }
-       // [JsonIgnore]
-        //public List<ConstrucaoMaterial> ConstrucaoMateriais { get; set; }
+        [JsonIgnore]
+        public List<ConstrucaoMaterial> ConstrucaoMateriais { get; set; }
 
     }
 }

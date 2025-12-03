@@ -1,0 +1,502 @@
+[
+  {
+    "ContainingType": "api_Construsys.Controllers.ConstrucaoController",
+    "Method": "GetAll",
+    "RelativePath": "ConstrucoesOk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ConstrucaoController",
+    "Method": "Post",
+    "RelativePath": "ConstrucoesOk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.ConstrucaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ConstrucaoController",
+    "Method": "GetById",
+    "RelativePath": "ConstrucoesOk/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ConstrucaoController",
+    "Method": "Put",
+    "RelativePath": "ConstrucoesOk/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.ConstrucaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ConstrucaoController",
+    "Method": "Delete",
+    "RelativePath": "ConstrucoesOk/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.DespesaController",
+    "Method": "GetAll",
+    "RelativePath": "Despesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.DespesaController",
+    "Method": "Post",
+    "RelativePath": "Despesas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.DespesaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.DespesaController",
+    "Method": "GetById",
+    "RelativePath": "Despesas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.DespesaController",
+    "Method": "Put",
+    "RelativePath": "Despesas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.DespesaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.DespesaController",
+    "Method": "Delete",
+    "RelativePath": "Despesas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.FornecedorController",
+    "Method": "GetAll",
+    "RelativePath": "Fornecedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.FornecedorController",
+    "Method": "Post",
+    "RelativePath": "Fornecedores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.FornecedorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.FornecedorController",
+    "Method": "GetById",
+    "RelativePath": "Fornecedores/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.FornecedorController",
+    "Method": "Put",
+    "RelativePath": "Fornecedores/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.FornecedorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.FornecedorController",
+    "Method": "Delete",
+    "RelativePath": "Fornecedores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMateriaisController",
+    "Method": "GetAll",
+    "RelativePath": "Lan\u00E7amento_Materiais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMateriaisController",
+    "Method": "Post",
+    "RelativePath": "Lan\u00E7amento_Materiais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.ConstrucaoMaterialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMaoDeObraController",
+    "Method": "GetAll",
+    "RelativePath": "Lan\u00E7amentos_Mao_de_Obra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMaoDeObraController",
+    "Method": "Post",
+    "RelativePath": "Lan\u00E7amentos_Mao_de_Obra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.MaoDeObraDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMaoDeObraController",
+    "Method": "GetById",
+    "RelativePath": "Lan\u00E7amentos_Mao_de_Obra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMaoDeObraController",
+    "Method": "Put",
+    "RelativePath": "Lan\u00E7amentos_Mao_de_Obra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.MaoDeObraDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.LancamentoMaoDeObraController",
+    "Method": "Delete",
+    "RelativePath": "Lan\u00E7amentos_Mao_de_Obra/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.MaterialController",
+    "Method": "GetAll",
+    "RelativePath": "Materiais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.MaterialController",
+    "Method": "Post",
+    "RelativePath": "Materiais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.MaterialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.MaterialController",
+    "Method": "GetById",
+    "RelativePath": "Materiais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.MaterialController",
+    "Method": "Put",
+    "RelativePath": "Materiais/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.MaterialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.MaterialController",
+    "Method": "Delete",
+    "RelativePath": "Materiais/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ProprietarioController",
+    "Method": "GetAll",
+    "RelativePath": "Proprietarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ProprietarioController",
+    "Method": "Post",
+    "RelativePath": "Proprietarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.ProprietarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ProprietarioController",
+    "Method": "GetById",
+    "RelativePath": "Proprietarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ProprietarioController",
+    "Method": "Put",
+    "RelativePath": "Proprietarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "api_Construsys.Dtos.ProprietarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_Construsys.Controllers.ProprietarioController",
+    "Method": "Delete",
+    "RelativePath": "Proprietarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
