@@ -1,0 +1,113 @@
+CREATE DATABASE construsys;
+USE construsys;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+CREATE TABLE proprietario (
+  id_proprietario INT NOT NULL AUTO_INCREMENT,
+  nome_proprietario VARCHAR(255) NOT NULL,
+  email_proprietario VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id_proprietario),
+  UNIQUE (email_proprietario)
+);
+
+INSERT INTO proprietario (nome_proprietario, email_proprietario)
+VALUES ('Cleverson', 'cleber@cleversondutra.info');
+
+CREATE TABLE construcao (
+  id_const INT NOT NULL AUTO_INCREMENT,
+  nome_projeto_const VARCHAR(255) NOT NULL,
+  localizacao_const VARCHAR(255),
+  id_proprietario_fk INT NOT NULL,
+  PRIMARY KEY (id_const),
+  FOREIGN KEY (id_proprietario_fk) REFERENCES proprietario(id_proprietario) ON DELETE CASCADE
+);
+
+INSERT INTO construcao (nome_projeto_const, localizacao_const, id_proprietario_fk) VALUES
+('Construção Casa 01', 'Centro - Porto Velho', 1),
+('Construção Galpão', 'Distrito Industrial', 2);
+
+CREATE TABLE material (
+  id_material INT NOT NULL AUTO_INCREMENT,
+  nome_material VARCHAR(255) NOT NULL,
+  unidade_material VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id_material)
+);
+
+INSERT INTO material (nome_material, unidade_material) VALUES
+('Cimento', 'Saco'),
+('Areia', 'm³');
+
+
+CREATE TABLE fornecedor (
+  id_forne INT NOT NULL AUTO_INCREMENT,
+  nome_forne VARCHAR(255) NOT NULL,
+  contato_forne VARCHAR(255),
+  PRIMARY KEY (id_forne)
+);
+
+INSERT INTO fornecedor (nome_forne, contato_forne) VALUES
+('Construmax', '(69) 99999-1111'),
+('Casa do Aço', '(69) 99888-2222');
+
+CREATE TABLE mao_de_obra (
+  id_mao_de_obra INT NOT NULL AUTO_INCREMENT,
+  descricao VARCHAR(255) NOT NULL,
+  custo FLOAT NOT NULL,
+  id_const_fk INT NOT NULL,
+  PRIMARY KEY (id_mao_de_obra),
+  FOREIGN KEY (id_const_fk) REFERENCES construcao(id_const) ON DELETE CASCADE
+);
+
+INSERT INTO mao_de_obra (descricao, custo, id_const_fk) VALUES
+('Pedreiro', 3500.00, 1),
+('Servente', 2200.00, 1);
+
+
+CREATE TABLE construcaomaterial (
+  id INT NOT NULL AUTO_INCREMENT,
+  id_construcao INT NOT NULL,
+  id_material INT NOT NULL,
+  quantidade_const_mat FLOAT NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (id_construcao) REFERENCES construcao(id_const) ON DELETE CASCADE,
+  FOREIGN KEY (id_material) REFERENCES material(id_material) ON DELETE CASCADE
+);
+
+INSERT INTO construcaomaterial (id_construcao, id_material, quantidade_const_mat) VALUES
+(1, 1, 50),
+(1, 2, 10);
+
+
+CREATE TABLE despesa (
+  id_despesa INT NOT NULL AUTO_INCREMENT,
+  descricao_desp VARCHAR(255) NOT NULL,
+  valor_desp FLOAT NOT NULL,
+  data_desp DATE NOT NULL,
+  id_const_fk INT,
+  id_forne_fk INT,
+  PRIMARY KEY (id_despesa),
+  FOREIGN KEY (id_const_fk) REFERENCES construcao(id_const) ON DELETE CASCADE,
+  FOREIGN KEY (id_forne_fk) REFERENCES fornecedor(id_forne) ON DELETE CASCADE
+);
+INSERT INTO despesa (descricao_desp, valor_desp, data_desp, id_const_fk, id_forne_fk) VALUES
+('Compra de cimento', 850.00, '2025-01-10', 1, 1),
+('Areia lavada', 450.00, '2025-01-12', 1, 1);
+
+CREATE TABLE usuario (
+  id_usu INT NOT NULL AUTO_INCREMENT,
+  nome_usu VARCHAR(255) NOT NULL,
+  email_usu VARCHAR(255) NOT NULL,
+  senha_usu VARCHAR(255) NOT NULL,
+  perfil_usu VARCHAR(50),
+  PRIMARY KEY (id_usu),
+  UNIQUE (email_usu)
+);
+INSERT INTO usuario (nome_usu, email_usu, senha_usu, perfil_usu)
+VALUES ('Administrador', 'admin@teste.com', '123456', 'ADMIN');
+
+select table usuario;
+
+
+SET FOREIGN_KEY_CHECKS = 1;
+
